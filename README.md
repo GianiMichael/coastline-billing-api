@@ -2,6 +2,21 @@
 
 Backend for a voice AI agent, built on ElevenLabs ElevenAgents, that answers telecom billing questions for a multi location retailer.
 
+## Try it live
+
+**[Talk to the agent in your browser](https://elevenlabs.io/app/talk-to?agent_id=agent_0001m7qytv2ceqhamq4vj1bjd69b)** (no account needed, allow microphone access, or type instead)
+
+Use one of these fictional stores:
+
+| Say | Store | ZIP | What happens |
+| --- | --- | --- | --- |
+| "Why did our bill go up?" | 12 | 75201 | Explains a $223 increase: promo ended, technician visit, fees |
+| "Are we paying for anything we don't use?" | 23 | 30303 | Flags two unused lines, about $768 a year in savings |
+| "Our bill went up during the outage" | 31 | 98101 | Explains a data overage and logs a credit request ticket |
+| Any question, wrong ZIP | 12 | 90210 | Refuses to share billing details |
+
+See logged tickets live: [coastline-billing-api.onrender.com/escalations](https://coastline-billing-api.onrender.com/escalations)
+
 ## The problem
 
 Retailers with dozens of locations pay hundreds of telecom invoices a month across several carriers. Store managers and finance staff see a bill go up and have no quick way to find out why. Questions pile up with a small telecom team, and unused lines keep billing for months because nobody notices them.
